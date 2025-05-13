@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact JNK Jewellery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact JNK Jewellery</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Get in Touch</h2>
+            <form onsubmit="return validateForm()">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    
+    <h3>Follow Us on Social Media</h3>
+    <a href="https://www.instagram.com/iamnaserian" target="_blank">
+        <img src="images/instagram-icon.png" alt="Instagram">
+    </a>
+</section>
+    </a>
+    </a>
+</section>
+    <script src="js/script.js"></script>
+    <script>
+        function validateForm() {
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+
+            if (name === "" || email === "") {
+                alert("Please fill out all fields.");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</body>
+</html>
+   
+
+

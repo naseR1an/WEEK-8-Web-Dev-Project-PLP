@@ -1,0 +1,73 @@
+/* Global */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #3D1F00; /* Deep brown */
+    color: white;
+}
+
+/* Header */
+header {
+    background-color: gold;
+    padding: 20px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: brown;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background-image: url('../images/background.jpg'); /* Luxury background */
+    padding: 100px;
+}
+
+.cta-button {
+    background-color: gold;
+    transition: transform 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: scale(1.1);
+}
+
+/* Gallery */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.gallery img {
+    width: 200px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+.social-media {
+    text-align: center;
+    padding: 20px;
+}
+
+.social-media img {
+    width: 40px;
+    height: auto;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-media img:hover {
+    transform: scale(1.2);
+}
+
